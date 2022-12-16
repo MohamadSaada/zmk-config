@@ -13,7 +13,7 @@ led_strip: ws2812@0 {
 
     /* SPI */
     reg = <0>;
-    spi-max-frequency = <5250000>;
+    spi-max-frequency = <4000000>;
 
     /* WS2812 */
     chain-length = <35>; /* number of LEDs */
