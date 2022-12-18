@@ -63,7 +63,7 @@ led_strip: ws2812@0 {
                         &kp LALT &kp LGUI &mo 1	    &kp SPACE  &kp RET  &kp BSPC 	&mo 2 &kp RGUI
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		lower_layer {
@@ -81,7 +81,7 @@ led_strip: ws2812@0 {
                                   &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &trans             &trans    &rgb_ug RGB_EFF   &trans    &trans    &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		raise_layer {
@@ -99,7 +99,7 @@ led_strip: ws2812@0 {
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 	};
 };
