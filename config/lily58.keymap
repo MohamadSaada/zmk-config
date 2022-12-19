@@ -37,8 +37,6 @@ led_strip: ws2812@0 {
   };
 };
 
-&left_encoder { status = "okay"; };
-
 
 / {
 	chosen {
