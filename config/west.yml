@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/cdc-mkb
   projects:
     - name: zmk
-      remote: cdc-mkb
+      remote: zmkfirmware
       revision: mouse-pim447
       import: app/west.yml
   self:
